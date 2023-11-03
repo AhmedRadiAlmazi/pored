@@ -1,0 +1,73 @@
+.bout1{
+    border-radius: 10px;
+}
+.bout2{
+    border-radius: 10px;
+}
+.bout3{
+    border-radius: 10px;
+}
+.bout4{
+    border-radius: 10px;
+    opacity: 0.6;
+}
+.bout5{
+    border-radius: 10px;
+    opacity: 0.5;
+}
+ div .bout{
+     /* background-color: #fff; */
+    /* border: none; */
+    /* color: white; */
+    padding: 20px;
+    text-align: center;
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    margin: 4px 2px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    box-shadow: 0px 0px  0px 10px rgba(red, green, blue, alpha) ;
+
+}
+.bout:hover{
+    background: rgb(192, 52, 42);
+    color: white;
+    padding: 30px;
+}
+div p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-color: brown;
+    /* column-rule-style: solid; */
+}
+marquee{
+    font-size: 30px;
+    font-weight: bold;
+    background: red;
+    color: white;
+    height: 40px;
+}
+span div{
+    width: 100px;
+background-color: aqua;
+height: 50px;
+transition: 0.5s;
+
+}
+span div:hover{
+    width: 100%;
+    
+}
+img{
+    border-style: double;
+    border-width: 10px;
+    box-shadow: 0px 0px  0px 10px rgb(196, 9, 9 ) ;
+    border-radius: 20%;
+    height: 500px;
+    width: 500px;
+}
+img:hover{
+    height: 600px;
+    width: 600px;
+
+}
